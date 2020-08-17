@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exploring Android Libraries</string>
+    <string name="you_are_in_the_main_menu">You are in the main menu!</string>
+    <string name="card_sample_description">Implementing third-party libraries and exploring what they have to offer</string>
+    <string name="card_sample_title">Retrofit</string>
+    <string name="card_sample_subtitle">Using get to obtain data from a web service</string>
+</resources>
