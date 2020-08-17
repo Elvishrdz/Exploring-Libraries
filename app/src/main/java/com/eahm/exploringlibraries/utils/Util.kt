@@ -5,7 +5,6 @@ import android.view.inputmethod.InputMethodManager
 import androidx.activity.ComponentActivity
 
 object Util {
-
     @JvmStatic fun hideKeyboard(parentActivity : ComponentActivity) {
         val currentView = parentActivity.currentFocus
         if(currentView != null){
