@@ -17,6 +17,12 @@ class MainActivity : AppCompatActivity() {
             "Goes to MainActivity",
             "This is a basic example of the app menu for each new activity where a new functionality will be tested.",
             MainActivity::class.java
+        ),
+        MenuElement(
+            "Retrofit",
+            "User Posts",
+            "Retrieve the posts from a user using Retrofit",
+            RetrofitClient::class.java
         )
     )
 

@@ -4,4 +4,13 @@
     <string name="card_sample_description">Implementing third-party libraries and exploring what they have to offer</string>
     <string name="card_sample_title">Retrofit</string>
     <string name="card_sample_subtitle">Using get to obtain data from a web service</string>
+    <string name="response_fail">The response failed.</string>
+    <string name="retrofit_client">Retrofit Client</string>
+    <string name="retrofit_client_description">Write a user ID to obtain his posts</string>
+    <string name="user_id">User ID</string>
+    <string name="get_posts">Get Posts</string>
+    <string name="clear_result">Clear Result</string>
+    <string name="powered_by_jsonplaceholder_typicode_com">Powered by jsonplaceholder.typicode.com</string>
+    <string name="response_empty">There\'s no posts!</string>
+
 </resources>
