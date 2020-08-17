@@ -12,5 +12,8 @@
     <string name="clear_result">Clear Result</string>
     <string name="powered_by_jsonplaceholder_typicode_com">Powered by jsonplaceholder.typicode.com</string>
     <string name="response_empty">There\'s no posts!</string>
+    <string name="get_users">Get Users</string>
+    <string name="retrofit_adapters_rxjava">Retrofit Adapters\nRxJava and RxAndroid</string>
+    <string name="retrofit_adapters_rxjava_description">Here we obtain a list of users from our web service. Reactive programming is implemented to take care of the response retrieved by Retrofit.</string>
 
 </resources>
