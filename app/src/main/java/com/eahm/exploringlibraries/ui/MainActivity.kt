@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
             "User Posts",
             "Retrieve the posts from a user using Retrofit",
             RetrofitClient::class.java
+        ),
+        MenuElement(
+            "Retrofit",
+            "Get Users",
+            "We use RxJava and RxAndroid to obtain all the users. In this example, to our retrofit instance, we provide the RxJava Adapter",
+            RetrofitAdaptersRxJava::class.java
         )
     )
 
