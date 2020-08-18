@@ -19,16 +19,22 @@ class MainActivity : AppCompatActivity() {
             MainActivity::class.java
         ),
         MenuElement(
-            "Retrofit",
+            "Retrofit2",
             "User Posts",
             "Retrieve the posts from a user using Retrofit",
             RetrofitClient::class.java
         ),
         MenuElement(
-            "Retrofit",
+            "Retrofit2 | RxJava | RxAndroid",
             "Get Users",
             "We use RxJava and RxAndroid to obtain all the users. In this example, to our retrofit instance, we provide the RxJava Adapter",
             RetrofitAdaptersRxJava::class.java
+        ),
+        MenuElement(
+            "Retrofit2 | GSON",
+            "StackOverflow API",
+            "We will use the StackOverflow API to make an http query using Retrofit and GSON",
+            RetrofitGson::class.java
         )
     )
 

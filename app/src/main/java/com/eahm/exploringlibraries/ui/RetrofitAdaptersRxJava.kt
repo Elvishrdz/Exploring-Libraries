@@ -7,7 +7,7 @@ import android.view.View
 import com.eahm.exploringlibraries.R
 import com.eahm.exploringlibraries.interfaces.UserApi
 import com.eahm.exploringlibraries.models.User
-import com.eahm.exploringlibraries.utils.BASE_URL
+import com.eahm.exploringlibraries.utils.JsonPlaceholder
 import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.schedulers.Schedulers
@@ -52,7 +52,7 @@ class RetrofitAdaptersRxJava : AppCompatActivity() {
          */
 
         val retrofit = Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(JsonPlaceholder.BASE_URL)
             /**
              * 3.1 Add the RxJava 3 Adapter to Retrofit
              *
