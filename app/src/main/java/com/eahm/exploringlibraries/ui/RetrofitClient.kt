@@ -7,7 +7,7 @@ import android.view.View
 import com.eahm.exploringlibraries.R
 import com.eahm.exploringlibraries.interfaces.PostService
 import com.eahm.exploringlibraries.models.Post
-import com.eahm.exploringlibraries.utils.BASE_URL
+import com.eahm.exploringlibraries.utils.JsonPlaceholder
 import com.eahm.exploringlibraries.utils.Util
 import kotlinx.android.synthetic.main.activity_retrofit_client.*
 import retrofit2.Call
@@ -57,7 +57,7 @@ class RetrofitClient : AppCompatActivity(), Callback<List<Post>> {
          * 3. Create the Retrofit instance
          */
         val retrofit : Retrofit = Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(JsonPlaceholder.BASE_URL)
             /**
              * 3.1 Define the ConverterFactory to deserialize from JSON using GSON Converter Factory
              */

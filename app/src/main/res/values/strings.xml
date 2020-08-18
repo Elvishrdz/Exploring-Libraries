@@ -15,5 +15,8 @@
     <string name="get_users">Get Users</string>
     <string name="retrofit_adapters_rxjava">Retrofit Adapters\nRxJava and RxAndroid</string>
     <string name="retrofit_adapters_rxjava_description">Here we obtain a list of users from our web service. Reactive programming is implemented to take care of the response retrieved by Retrofit.</string>
+    <string name="powered_by_stackoverflow">Powered by StackOverflow.com</string>
+    <string name="retrofit_gson">Retrofit | GSON</string>
+    <string name="select_a_question">Select a question:</string>
 
 </resources>

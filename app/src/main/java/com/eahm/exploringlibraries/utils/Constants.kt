@@ -1,3 +1,13 @@
 package com.eahm.exploringlibraries.utils
 
-const val BASE_URL = "https://jsonplaceholder.typicode.com/"
+class JsonPlaceholder {
+    companion object {
+        const val BASE_URL = "https://jsonplaceholder.typicode.com/"
+    }
+}
+
+class StackOverflow {
+    companion object {
+        const val BASE_URL = "https://api.stackexchange.com"
+    }
+}
