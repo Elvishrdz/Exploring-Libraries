@@ -28,5 +28,14 @@
     <string name="issues">Issues</string>
     <string name="write_a_comment_to_this_issue">Write a comment to this issue</string>
     <string name="post_comment">Post Comment</string>
+    <string name="powered_by_twitter">Powered by Twitter.com</string>
+    <string name="retrofit_oauth">Retrofit | OAuth</string>
+    <string name="retrofit_oauth_description">We obtain details from a twitter account using retrofit to connect with the OAuth credentials</string>
+    <string name="location">Location</string>
+    <string name="name">Name</string>
+    <string name="url">Url</string>
+    <string name="description">Description</string>
+    <string name="request_token">Request\nToken</string>
+    <string name="request_user_details">Request\nDetails</string>
 
 </resources>

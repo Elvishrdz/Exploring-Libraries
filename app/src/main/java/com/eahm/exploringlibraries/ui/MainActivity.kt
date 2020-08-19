@@ -38,9 +38,15 @@ class MainActivity : AppCompatActivity() {
         ),
         MenuElement(
             "Retrofit2 | RxJava",
-            "Auth with Github API ",
+            "Auth with Github API",
             "We use retrofit to authenticate through a web service. In this example we obtain information from the GithubAPI",
             RetrofitRxJava::class.java
+        ),
+        MenuElement(
+            "Retrofit2 | OkHttp",
+            "OAuth with the Twitter API",
+            "Here we obtain a token from the TwitterAPI to being able to obtain details of a given username.",
+            RetrofitOAuth::class.java
         )
     )
 
