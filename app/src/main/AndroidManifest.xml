@@ -7,6 +7,7 @@
         RetrofitAdaptersRxJava.kt (8)
         RetrofitGson.kt (5)
         RetrofitRxJava.kt (4)
+        RetrofitOAuth.kt (3)
     -->
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -18,7 +19,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.RetrofitRxJava"/>
+        <activity android:name=".ui.RetrofitOAuth"/>
+        <activity android:name=".ui.RetrofitRxJava" />
         <activity android:name=".ui.RetrofitGson" />
         <activity android:name=".ui.RetrofitAdaptersRxJava" />
         <activity android:name=".ui.RetrofitClient" />

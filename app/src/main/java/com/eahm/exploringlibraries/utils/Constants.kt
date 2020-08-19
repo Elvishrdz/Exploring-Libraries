@@ -17,3 +17,9 @@ class Github {
         const val BASE_URL = "https://api.github.com"
     }
 }
+
+class Twitter{
+    companion object{
+        const val BASE_URL = "https://api.twitter.com/"
+    }
+}
