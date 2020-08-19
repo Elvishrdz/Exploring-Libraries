@@ -11,3 +11,9 @@ class StackOverflow {
         const val BASE_URL = "https://api.stackexchange.com"
     }
 }
+
+class Github {
+    companion object{
+        const val BASE_URL = "https://api.github.com"
+    }
+}

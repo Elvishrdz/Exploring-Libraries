@@ -35,6 +35,12 @@ class MainActivity : AppCompatActivity() {
             "StackOverflow API",
             "We will use the StackOverflow API to make an http query using Retrofit and GSON",
             RetrofitGson::class.java
+        ),
+        MenuElement(
+            "Retrofit2 | RxJava",
+            "Auth with Github API ",
+            "We use retrofit to authenticate through a web service. In this example we obtain information from the GithubAPI",
+            RetrofitRxJava::class.java
         )
     )
 
